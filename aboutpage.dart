@@ -1,4 +1,4 @@
-// Copyright 2019, Devunto LLC & Kevin Heredia, All rights reserved.
+// Copyright 2020, Devunto LLC & Kevin Heredia, All rights reserved.
 
 import 'package:flutter/material.dart';
 import 'package:tilted_cup/aboutText.dart';
@@ -71,82 +71,6 @@ class _AboutPageState extends State<AboutPage> {
                       textAlign: TextAlign.center,
                     ),
                   ),
-                  // Container(
-                  //   decoration: BoxDecoration(
-                  //     boxShadow: [
-                  //       BoxShadow(blurRadius: 20, spreadRadius: 2),
-                  //     ],
-                  //     color: Colors.white,
-                  //     borderRadius: BorderRadius.only(
-                  //         bottomLeft: Radius.circular(20),
-                  //         bottomRight: Radius.circular(20),
-                  //         topLeft: Radius.circular(20),
-                  //         topRight: Radius.circular(20)),
-                  //   ),
-                  //   margin: EdgeInsets.only(left: 15, right: 15, bottom: 35),
-                  //   child: Text(
-                  //       "\nBased in Salt Lake City, \n\n" +
-                  //           "Tilted Cup's strategy for success is to maintain core values based on credibility, " +
-                  //           "safety, professionalism, integrity, communication, and a competent knowledge base.\n",
-                  //       style: TextStyle(
-                  //           fontSize: 18, fontWeight: FontWeight.bold),
-                  //       textAlign: TextAlign.center),
-                  // ),
-                  // Container(
-                  //   decoration: BoxDecoration(
-                  //     boxShadow: [BoxShadow(blurRadius: 20, spreadRadius: 2)],
-                  //     color: Colors.white,
-                  //     borderRadius: BorderRadius.only(
-                  //         bottomLeft: Radius.circular(20),
-                  //         bottomRight: Radius.circular(20),
-                  //         topLeft: Radius.circular(20),
-                  //         topRight: Radius.circular(20)),
-                  //   ),
-                  //   margin: EdgeInsets.only(left: 15, right: 15, bottom: 35),
-                  //   child: Text(
-                  //       '\nYou are not only selecting a bartender.' +
-                  //           ' You are choosing a partner in creating a safe and memorable event.\n',
-                  //       style: TextStyle(
-                  //           fontSize: 18, fontWeight: FontWeight.bold),
-                  //       textAlign: TextAlign.center),
-                  // ),
-                  // Container(
-                  //   decoration: BoxDecoration(
-                  //     boxShadow: [BoxShadow(blurRadius: 20, spreadRadius: 2)],
-                  //     color: Colors.white,
-                  //     borderRadius: BorderRadius.only(
-                  //         bottomLeft: Radius.circular(20),
-                  //         bottomRight: Radius.circular(20),
-                  //         topLeft: Radius.circular(20),
-                  //         topRight: Radius.circular(20)),
-                  //   ),
-                  //   margin: EdgeInsets.only(left: 15, right: 15, bottom: 35),
-                  //   child: Text(
-                  //       '\nWith over 10 years industry experience, ' +
-                  //           ' we have the knowledge needed to create a fun, yet safe atmosphere.\n',
-                  //       style: TextStyle(
-                  //           fontSize: 18, fontWeight: FontWeight.bold),
-                  //       textAlign: TextAlign.center),
-                  // ),
-                  // Container(
-                  //   decoration: BoxDecoration(
-                  //     boxShadow: [BoxShadow(blurRadius: 20, spreadRadius: 2)],
-                  //     color: Colors.white,
-                  //     borderRadius: BorderRadius.only(
-                  //         bottomLeft: Radius.circular(20),
-                  //         bottomRight: Radius.circular(20),
-                  //         topLeft: Radius.circular(20),
-                  //         topRight: Radius.circular(20)),
-                  //   ),
-                  //   margin: EdgeInsets.only(left: 15, right: 15, bottom: 35),
-                  //   child: Text(
-                  //       '\n We understand, when it comes to  serving alcohol, the safety of your guests is of the utmost importance. ' +
-                  //           ' \n\n We take on the responsibility of making sure our staff is trained not only to pour great cocktails, ' +
-                  //           'but to be able to identify any signs of over intoxication. \n\nYou can be confident your guest will be happy, and most importantly, safe!\n',
-                  //       style: TextStyle(
-                  //           fontSize: 18, fontWeight: FontWeight.bold),
-                  //       textAlign: TextAlign.center),
-                  // ),
                   Container(
                     decoration: BoxDecoration(
                       boxShadow: [BoxShadow(blurRadius: 20, spreadRadius: 2)],
@@ -180,22 +104,6 @@ class _AboutPageState extends State<AboutPage> {
                             fontSize: 18, fontWeight: FontWeight.bold),
                         textAlign: TextAlign.center),
                   ),
-                  // Container(
-                  //   decoration: BoxDecoration(
-                  //     boxShadow: [BoxShadow(blurRadius: 20, spreadRadius: 2)],
-                  //     color: Colors.white,
-                  //     borderRadius: BorderRadius.only(
-                  //         bottomLeft: Radius.circular(20),
-                  //         bottomRight: Radius.circular(20),
-                  //         topLeft: Radius.circular(20),
-                  //         topRight: Radius.circular(20)),
-                  //   ),
-                  //   margin: EdgeInsets.only(left: 15, right: 15, bottom: 35),
-                  //   child: Text( aboutText,
-                  //       style: TextStyle(
-                  //           fontSize: 18, fontWeight: FontWeight.bold),
-                  //       textAlign: TextAlign.center),
-                  // ),
                 ],
               ),
             ),
