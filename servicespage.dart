@@ -117,19 +117,6 @@ class ServicesPage extends StatelessWidget {
               ),
             ),
 
-            // Card(
-            //   margin: EdgeInsets.only(top: MediaQuery.of(context).size.height - 550, left: 20, right: 20),
-            //   child: Row(
-            //     mainAxisAlignment: MainAxisAlignment.center,
-            //     crossAxisAlignment: CrossAxisAlignment.end,
-            //     children: <Widget>[
-            //       Text(
-            //         "YOU'RE IN GOOD SPIRITS",
-            //         style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-            //       ),
-            //     ],
-            //   ),
-            // ),
 
             Container(
               child: FlatButton(
