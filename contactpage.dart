@@ -1,9 +1,7 @@
-// Copyright 2019, Devunto LLC & Kevin Heredia, All rights reserved.
+// Copyright 2020, Devunto LLC & Kevin Heredia, All rights reserved.
 
 import 'package:flutter/material.dart';
-// import 'package:mailer/mailer.dart';
 import 'package:tilted_cup/backend/mail.dart';
-// import 'package:tilted_cup/contactInfo/message.dart';
 import 'main.dart';
 import 'backend/mail.dart';
 
@@ -23,7 +21,6 @@ class _ContactPageState extends State<ContactPage> {
 
   @override
   Widget build(BuildContext context) {
-    // var floatingActionButton = FloatingActionButton;
     return Scaffold(
       backgroundColor: Colors.transparent,
       body: Container(
@@ -78,9 +75,7 @@ class _ContactPageState extends State<ContactPage> {
                         ),
                         onChanged: (name) {
                           callName = name;
-                          // contactDetails(name: name);
                         },
-                        // add code to grab and save data
                         validator: (name) {
                           if (name.length == 0) {
                             return "Cannot be empty";
@@ -117,9 +112,7 @@ class _ContactPageState extends State<ContactPage> {
                         keyboardType: TextInputType.number,
                         onChanged: (number) {
                           callNumber = number;
-                          // contactDetails(number: numbertest);
                         },
-                        // add code to grab and save data
                         validator: (number) {
                           if (number.length == 0) {
                             return "Cannot be empty";
@@ -156,11 +149,8 @@ class _ContactPageState extends State<ContactPage> {
                         controller: controller,
                         onChanged: (email) {
                           callEmail = email;
-                          // contactDetails(email: email);
                         },
-
                         keyboardType: TextInputType.emailAddress,
-                        // add code to grab and save data
                         validator: (email) {
                           if (email != "@") {
                             return "Cannot be empty";
@@ -197,10 +187,7 @@ class _ContactPageState extends State<ContactPage> {
                         ),
                         onChanged: (desc) {
                           callDesc = desc;
-                          // contactDetails(description: desc);
                         },
-                        // controller: controller.addListener(callDesc),
-                        // add code to grab and save data
                         validator: (desc) {
                           if (desc.length == 0) {
                             return "Cannot be empty";
@@ -214,12 +201,6 @@ class _ContactPageState extends State<ContactPage> {
                 ],
               ),
             ),
-            // TextFormField(
-            //   decoration: InputDecoration(
-            //     labelText: 'NAME',
-            //     fillColor: Colors.white,
-            //   ),
-            // ),
 
             // logo container
             Container(
@@ -272,19 +253,11 @@ class _ContactPageState extends State<ContactPage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          // Message();
           mail(
               name: callName,
               number: callNumber,
               email: callEmail,
               description: callDesc);
-
-          // contactDetails(
-          //     name: callName,
-          //     number: callNumber,
-          //     email: callEmail,
-          //     description: callDesc);
-          // add code
         },
         child: Icon(Icons.send),
       ),
@@ -292,35 +265,8 @@ class _ContactPageState extends State<ContactPage> {
   }
 }
 
-// Card(
-//   color: Colors.white,
-//   margin: EdgeInsets.only(top: 300, left: 30, right: 30),
-//   child: Padding(
-//     padding: EdgeInsets.only(bottom: 0),
-//     child: TextField(
-//       decoration: InputDecoration.collapsed(hintText:
-//         'You are not only selecting a bartender. You are choosing a partner in creating a safe and memorable event.',
-//         // style: TextStyle(fontSize: 14),
-//       ),
-//       maxLines: 20,
-//     ),
-//   ),
-// ),
-
 Route _homePage() {
   return PageRouteBuilder(
     pageBuilder: (context, animation, secondaryAnimation) => MyHomePage(),
-    // transitionsBuilder: (context, animation, secondaryAnimation, child) {
-    //   var begin = Offset(0.0, 5.5), end = Offset.zero;
-    //   var curve2 = Curves.easeOut;
-
-    //   var tween =
-    //       Tween(begin: begin, end: end).chain(CurveTween(curve: curve2));
-
-    //   return SlideTransition(
-    //     position: animation.drive(tween),
-    //     child: child,
-    //   );
-    // },
   );
 }
